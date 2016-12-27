@@ -9,9 +9,9 @@ var particles = [];
 var flowField = [];
 
 function setup() {
-	canvas = createCanvas(windowWidth, windowHeight);
-	canvas.position(0, 0);
-	canvas.style('z-index','-1');
+	canvas = createCanvas(400, 400);
+	// canvas.position(0, 0);
+	// canvas.style('z-index','-1');
 	background(255);
 	cols = floor(width / scl);
 	rows = floor(height / scl);

@@ -20,8 +20,9 @@ function Particle(){
 
 	this.show = function(){
 		//var color = "color("++','+random(255)+','+random(255)+')';
-		stroke (random(255),random(255),random(255), 5);
-		strokeWeight(1);
+		// stroke (random(255),random(255),random(255), 9);
+		stroke(0,0,0,3);
+		strokeWeight(2);
 		line(this.pos.x, this.pos.y, this.prevPos.x, this.prevPos.y);
 		this.updatePrev();
 		//point(this.pos.x, this.pos.y);
