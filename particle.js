@@ -21,7 +21,7 @@ function Particle(){
 	this.show = function(){
 		//var color = "color("++','+random(255)+','+random(255)+')';
 		// stroke (random(255),random(255),random(255), 9);
-		stroke(0,0,0,3);
+		stroke(0,0,0,1);
 		strokeWeight(2);
 		line(this.pos.x, this.pos.y, this.prevPos.x, this.prevPos.y);
 		this.updatePrev();
